@@ -1,0 +1,26 @@
+.container {
+    margin: auto auto;
+    max-width: 2000px;
+    background-color: #360046;
+    
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px ;
+}
+
+.siteWrapper {
+    
+    min-height: 100px;
+    
+    flex-direction: column;
+    display: auto;
+}
+  
+.body{
+    background-color: #360046;
+}
+.content{
+    flex-grow: 1;
+}
+

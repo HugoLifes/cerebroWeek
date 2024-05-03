@@ -40,4 +40,53 @@ module.exports = {
       },
     },
   ],
+  plugins: [
+    
+    {
+      resolve: `gatsby-plugin-typography`,
+        options: {
+          pathToConfigModule: `src/utils/typography`,
+      },
+    }, 
+
+  ],
+  plugins: [
+    
+    {
+      resolve: "gatsby-transformer-remark",
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-video",
+          options: {
+            urlOverrides: [
+              {
+                id: 'youtube',
+                embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
+              }
+            ] //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+          }
+        }
+        ]
+      }
+    },
+  ],
+  plugins: [
+   
+    
+      {
+             resolve: `gatsby-plugin-sass`,
+              options: {
+              cssLoaderOptions: {
+                 esModule: true,
+                modules: {
+                   namedExport: true,
+                 },
+               },
+            },
+            }
+    
+  ]
 }
