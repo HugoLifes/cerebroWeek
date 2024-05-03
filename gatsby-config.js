@@ -74,8 +74,6 @@ module.exports = {
     },
   ],
   plugins: [
-   
-    
       {
              resolve: `gatsby-plugin-sass`,
               options: {
@@ -87,17 +85,6 @@ module.exports = {
                },
             },
             }
-    
   ],
-  plugins: [
-    {
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: [
-          'Roboto:400,700',
-          'Inter:400',
-        ],
-      },
-    },
-  ],
+  
 }
