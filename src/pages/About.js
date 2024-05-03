@@ -13,6 +13,7 @@ const AboutPage = () =>{
           con la finalidad de realizar actividades imaginativas en las comunidades compartiendo las maravillas del cerebro y el impacto que la Neurociencia presenta en nuestra vida cotidianamente. Dicho acercamiento es realizado por medio de conferencias magistrales,
          charlas, exposiciones y talleres. 
          </p>
+         <div className={Style.blankSpace}></div>
         <Link className={Style.title} to="/Contact">Contactanos!</Link>
         </Layout>
 

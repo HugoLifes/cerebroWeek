@@ -2,31 +2,38 @@
     color: #e10049;
     background-image: none;
     font-size:  50px;
+    font-family: 'Roboto';
 }
 .text{
-    color: #e10049;
+    width: 90%;
+    display: flex;
+    color: white;
     background-image: none;
     font-size:  29px;
+    text-align: justify;
+    font-family: 'Roboto';
+    margin-left: 5%;
+}
+.blankSpace{
+    height: 20px;
 }
 .sub-title{
     color: #e10049;
     font-size:  40px;
+    font-family: 'Roboto';
+    
 }
-
 .div{
     background-color: #360046;
-   
 }
 .sub-title:hover{
     color:white;
 }
-
 .logo{
     display: flex;
     width: 800px;
 }
-
 .video{
-    
-    width: 720px;
+    display: flex;
+    width: 900px;
 }
